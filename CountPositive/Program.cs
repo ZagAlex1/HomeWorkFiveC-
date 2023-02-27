@@ -20,7 +20,7 @@ int[] FillArray(int number)
   int[] array = new int[number];
   for (int i = 0; i < array.Length; i++)
   {
-    array[i] = Math.Abs(random.Next(100, 1000));
+    array[i] = random.Next(100, 1000);
   }
   return array;
 }
